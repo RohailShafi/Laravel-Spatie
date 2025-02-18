@@ -45,4 +45,24 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public static function user(){
+
+//        $user = User::find(1);
+//        $user->name = 'Rohail';
+//
+////        $user2 = User::find(3);
+//
+//        $user2 = $user->refresh();
+//
+//        dd(
+//            $user->toArray(),
+//
+//            $user2->toArray()
+//        );
+
+        $user = User::find(1);
+
+
+    }
 }

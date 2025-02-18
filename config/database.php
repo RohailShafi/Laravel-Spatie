@@ -171,9 +171,11 @@ return [
     ],
 
     'models' => [
+        'Article' => [
         'table' => 'articles',
         'fillable' => ['title' , 'content'],
         'hidden' => ['created_at' ,'updated_at', 'deleted_at']
+        ]
     ],
 
 ];
